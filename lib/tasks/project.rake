@@ -6,7 +6,7 @@ namespace :project do
     if project.finish!
       puts "OK!"
     else
-      puts "não foi possível."
+      puts "nao foi possivel."
     end
   end
 end
