@@ -26,13 +26,13 @@ gem "auto_html", '>= 1.3.5'
 gem "acts_as_commentable"
 gem 'mustache'
 gem 'unicode'
+gem 'capybara', ">= 0.4.0"
 
 group :development do
   gem 'heroku'
 end
 
 group :test, :development do
-  gem 'capybara', ">= 0.4.0"
   gem 'launchy'
   gem 'database_cleaner'
   gem 'steak', "~> 1.1.0"
