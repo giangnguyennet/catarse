@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 source 'http://gems.github.com'
+
 gem 'rails', '3.0.3'
 gem 'pg'
 gem 'haml'
@@ -25,6 +26,11 @@ gem "auto_html", '>= 1.3.5'
 gem "acts_as_commentable"
 gem 'mustache'
 gem 'unicode'
+
+group :development do
+  gem 'heroku'
+end
+
 group :test, :development do
   gem 'capybara', ">= 0.4.0"
   gem 'launchy'
